@@ -15,7 +15,7 @@
     NavLeft,
     NavRight
   } from 'framework7-svelte';
-  import Framework7 from 'framework7/lite-bundle';
+  import Framework7 from 'framework7/framework7-lite-bundle.esm.js';
   import Framework7Svelte from 'framework7-svelte';
   
   // Import Pages

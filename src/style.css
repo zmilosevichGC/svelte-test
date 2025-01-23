@@ -1,0 +1,51 @@
+/* Global styles */
+:root {
+  --f7-theme-color: #007aff;
+  --link-hover-opacity: 0.7;
+  --link-transition-duration: 0.2s;
+}
+
+/* Custom styles */
+.block {
+  margin: 1rem;
+}
+
+.page-content {
+  padding: 1rem;
+}
+
+/* Typography */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Links */
+/* General link styles */
+a, 
+.link,
+.list .item-link {
+  color: var(--f7-theme-color);
+  text-decoration: none !important;
+  transition: opacity var(--link-transition-duration) ease;
+}
+
+a:hover, 
+.link:hover,
+.list .item-link:hover {
+  text-decoration: none !important;
+  opacity: var(--link-hover-opacity);
+}
+
+/* Navbar specific styles */
+.navbar .link {
+  transition: opacity var(--link-transition-duration) ease;
+}
+
+.navbar .link:hover {
+  opacity: var(--link-hover-opacity);
+}

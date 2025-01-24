@@ -7,7 +7,7 @@
     <NavLeft>
       <Link iconIos="f7:menu" panelOpen="left" />
     </NavLeft>
-    <NavTitle>My App 2</NavTitle>
+    <NavTitle>My App 3</NavTitle>
     <NavRight>
       <Link iconIos="f7:ellipsis_vertical" panelOpen="right" />
     </NavRight>
